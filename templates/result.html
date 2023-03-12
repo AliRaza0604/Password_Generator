@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Generator</title>
+	<style>
+		body {
+			background-color: #6babf9;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			margin: 0;
+		}
+		div {
+			background-color: #FFFFFF;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			text-align: center;
+		}
+		p {
+			font-size: 2em;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Your password:</h1>
+		<p>{{ password }}</p>
+		<a href="/">Generate another password</a>
+	</div>
+</body>
+</html>
